@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Images</title>
+</head>
+<body>
+  <img height = "100" src="images/img.jpg" alt="flower image">
+  <br>
+
+  <table>
+    <caption>Employee details</caption>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Designation</th>
+        <th>Fav language</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td colspan="2">Yuvraj</td>
+        <!-- <td>Developer</td> -->
+        <td rowspan="2">C++</td>
+      </tr>
+      <tr>
+        <td>Developer</td>
+        <!-- <td>C++</td> -->
+        <td>mai</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td>Developer</td>
+        <!-- <td>C++</td> -->
+        <td>mai1</td>
+        <td>java</td>
+      </tr>
+    </tfoot>
+
+  </table>
+
+  <ul type="square">
+    <li>C++</li>
+    <li>Java</li>
+    <li>Python</li>
+  </ul>
+
+  <ol type= "A">
+    <li>C++</li>
+    <li>Java</li>
+    <li>Python</li>
+  </ol>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>forms</title>
+ 
+</head>
+<body>
+  <p>Hey, i am a web dev</p>
+  <a href="https://www.google.com">Google</a>  
+  <div>I am a block element</div>
+  <span>i am inline</span>
+  <a href="https://www.google.com">facebook</a>
+  <!-- <h1>About Yourself</h1>
+  <div>
+    <form action="post">
+      <label for="username">Enter Your username :</label>
+      <input type="text" id= "username" name="username" placeholder="Enter Your Name">
+    </form>
+  </div> -->
+
+  <!-- <div>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+  </div> -->
+
+
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <style>
+    *{
+      margin:0;
+      padding: 0;
+    }
+
+    /* .nav{
+      background-color: aqua;
+    }
+
+    .box1{
+      color: white;
+      padding: 10px;
+      border: 2px solid blue;
+      margin: 25px;
+      height:200px;
+      box-sizing: border-box;
+    }
+
+    .box2{
+      color: yellow;
+      margin:25px;
+      padding: 10px;
+      border: 2px solid black;
+      height:200px;
+      box-sizing: border-box;
+    } */
+
+    h1{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    p{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: oblique;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+
+  </style>
+</head>
+<body>
+  <!-- <div style = "color : Yellow; background-color: greenyellow">
+    I am Yuvraj
+  </div> -->
+
+  <!-- <div class="nav box1">I am a box</div>
+  <div class="nav box2">I am a box</div> -->
+
+  <div class="fonts">
+    <h1>Fonts</h1>
+    <p>This is a paragraph</p>
+  </div>
+
+
+  <!-- <div class="bg">
+    <p>This is a first child of div</p>
+    <p>This is a second child of the div</p>
+  </div> -->
+
+  <!-- <div id="green">
+    This is another div;
+    <article>
+      <p>This is a fantastic paragraph</p>
+    </article>
+  </div> -->
+
+  <!-- <div>
+    <main><p>This child belongs to main</p></main>
+  </div>
+
+  <a href="https://www.google.com">Google</a>
+  <a href="https://www.facebook.com">Facebook</a> -->
+
+
+  <!-- <header>
+    <h1>Welcome to <</m> </h1>
+    <p>This is my first paragraph</p>
+
+  </header> -->
+
+
+  <!-- <main>
+    <h1>This is my main</h1>
+  </main> -->
+
+  <!-- <footer>
+    Footer content
+    &copy; 2023lkl
+  </footer> -->
+
+  <!-- <iframe src="https://www.youtube.com/embed/8Qn_spdM5Zg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;"></iframe> -->
+
+</body>
+</html>

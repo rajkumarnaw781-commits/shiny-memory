@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <title>MY PORTFOLIO</title>
+</head>
+<body>
+  <h1>Main bookmarks</h1>
+  <h2>Secondary bookmarks</h2>
+  <p style="background-color: grey; color: hotpink;"> hey, there whats up, i am a dummy website  and i am beginner</p>
+  <!-- <script src ="script.js"></script> -->
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    div p:first-child{
+      background-color: yellow;
+      color: red;
+
+    }
+
+    p{
+      background-color: blue;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <p>This is a text</p>
+    <p>some para</p>
+    <p>another</p>
+    <p>ant</p>
+    <p>ant</p>
+
+  </div>
+  <div>
+    <p>ant</p>
+    <p>ant</p>
+    <p>ant</p>
+    <p>ant</p>
+    <p>ant</p>
+  </div>
+
+</body>
+</html>
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        /* box-sizing: border-box */
+      }
+      .box12 {
+        border: 2px solid red;
+        display: inline-block;
+        padding: 20px;
+        margin: 20px;
+        width: 344px;
+      }
+
+      .bit {
+        /* display: none; */
+        visibility: hidden;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="box12 bit">i am a box</div>
+    <div class="box12">hey, there</div>
+
+    <span> i am a good span</span>
+    <span> i am a good span2</span>
+  </body>
+</html>

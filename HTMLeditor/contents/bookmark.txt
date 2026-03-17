@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookmark manager </title>
+</head>
+<body>
+  <h1>My bookmarks</h1>
+  <h2>Primary Bookmakrs</h2>
+  <p><a target="_blank" href="https://www.google.com">Open Google</a></p>
+  <p><a target="_blank" href="https://www.facebook.com">Open Facebook</a></p>
+  <p><a target="_blank" href="https://www.Yahoo.com">Open Yahoo</a></p>
+  <h2>Secondary Bookmakrs</h2>
+  <p><a target="_blank" href="https://www.bing.com">Open Bing</a></p>
+  <p><a target="_blank" href="https://www.duckduckgo.com">Open DuckDuckGo</a></p>
+
+    <!-- <div  id="first" class="red bg-color">Hello, world</div>
+    <div id="second" class="red ">i am span</div>-->
+
+    <!-- <video height="500" width="500" src="assets/video.mp4" poster="images/img.jpg" controls></video> -->
+   <p>This is Sahiba songa</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/934Eef3ND2g?si=2-Z_M3IQC6D6Zlqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+   <p>This is Sahiba songa</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fxwQ2FpF9ac?si=GYkAgIv3IC3My8jkl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+
+     <iframe width="560" height="315" src=" https://www.youtube.com/embed/9WQ2GpG9ac?si=Z_312Iv3IC3My8jkl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    html{
+      font-size: 12px;
+    }
+
+    /* h1{
+      color: red;
+    } */
+
+    h1.yellow{
+      color: yellow;
+    }
+/* 
+   .cred{
+      color: grey;
+
+    } */
+
+    .chwite{
+      color: pink;
+    }
+
+    [data-x = "a"]{
+      color:aquamarine;
+    }
+/* 
+    .cwhite{
+      color : pink !important;
+    } */
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .box1{
+      border: 2px solid black;
+      background-color: aquamarine;
+      width: 80vw;
+      margin: auto; /* this only works when our element is a block level element */
+      height: 20vh;
+      box-sizing: border-box;
+    }
+
+    .container{
+      border: 2px solid black;
+      background-color: aquamarine;
+      width: 80vw;
+      margin: 23px auto;
+      /* height: 60vh; */
+      min-height: 60vh;
+      /* font-size: 18px; */
+      box-sizing: border-box;
+    }
+
+    .container p{
+      font-size: 2rem;
+      width: 50%;
+    }
+
+    .mylastpage{
+      border: 2px solid black;
+      background-color: aquamarine;
+
+    }
+
+  </style>
+</head>
+<body>
+  <div>
+    <h1 data-x = "a" class="yellow, cred, cwhite">
+      i am hero line
+    </h1>
+  </div>
+
+  <div class="box1">
+    this is me!
+  </div>
+
+  <div class="container">
+    <p>this is our content and i have no idea what to write here. but i have brain iq is 181.</p>
+  </div>
+
+  <div class="mylastpage">
+    copyright 2022;
+  </div>
+
+</body>
+</html>

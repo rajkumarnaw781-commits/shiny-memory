@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+
+    }
+
+    body{
+      background-color: black;
+    }
+
+    header{
+      position: sticky ;
+      top: 0;
+    }
+    .navbar{
+      background-color: pink;
+      padding: 25px 0px;
+    }
+
+    ul li{
+      list-style-type: none;
+      display: inline;
+      padding: 15px;
+
+    }
+
+    ul li a{
+      text-decoration: none;
+      color: black;
+    }
+
+    footer {
+      background-color: white;
+    }
+
+    section{ 
+      background-color: green;
+      /* box-sizing: border-box; */
+      margin: 20px 20px 2px 20px;
+    }
+
+    .box1{
+      background-color: magenta;
+      width: 200px;
+      height: 200px;
+      display: inline-block; 
+      margin: 20px 10px 20px 30vw;
+
+    }
+
+    .box2{
+      display: inline-block;
+      background-color: blue;
+      /* box-sizing: boarder-box; */
+      width: 200px;
+      height: 200px;
+      margin: 20px 20vw 20px 10px;
+    }
+
+    footer{
+      padding: 30px 0px;
+    }
+
+    #container{
+      /* background-color: red; */
+      margin: 0px 20vw 39vh 20vw;
+      padding: 20px;
+      border: 2px solid #241e1e;
+      border-radius: 20px;  
+    }
+
+    #container p{
+      text-align: center; 
+      color: white;
+      font-size: 20px;
+      font-weight: 400;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .logo{
+      background-color: orange;
+      height:30px;
+      width: 30px;
+      border-radius: 30px;
+      position: fixed;
+      bottom: 12px;
+      right: 1vw;
+    }
+
+    </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="/Home">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <div class="box1">
+      hey this is Yuvraj
+    </div>
+    <div class="box2">
+      hey this is me
+    </div>
+  </section>
+
+  <div id="container">
+    <p>welcome to the sigma web Development Express.</p>
+  </div>
+
+  <div class="logo">
+  </div>
+
+  <footer>
+    <p>Copyright &copy; 2023</p>
+  </footer>
+</body>
+</html>

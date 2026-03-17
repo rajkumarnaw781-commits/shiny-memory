@@ -1,0 +1,183 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="secondaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+        </linearGradient>
+        
+        <!-- Animated elements -->
+        <style>
+            .float {
+                animation: float 6s ease-in-out infinite;
+            }
+            .float-delayed {
+                animation: float 6s ease-in-out infinite;
+                animation-delay: 2s;
+            }
+            .rotate {
+                animation: rotate 20s linear infinite;
+            }
+            .pulse {
+                animation: pulse 4s ease-in-out infinite;
+            }
+            
+            @keyframes float {
+                0%, 100% { transform: translateY(0px); }
+                50% { transform: translateY(-20px); }
+            }
+            
+            @keyframes rotate {
+                from { transform: rotate(0deg); }
+                to { transform: rotate(360deg); }
+            }
+            
+            @keyframes pulse {
+                0%, 100% { opacity: 0.6; }
+                50% { opacity: 1; }
+            }
+        </style>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="800" height="600" fill="url(#primaryGradient)" opacity="0.05"/>
+    
+    <!-- Geometric shapes background -->
+    <circle cx="700" cy="100" r="150" fill="url(#secondaryGradient)" opacity="0.1" class="float"/>
+    <circle cx="100" cy="500" r="120" fill="url(#accentGradient)" opacity="0.1" class="float-delayed"/>
+    
+    <!-- Main illustration - Developer workspace -->
+    <g transform="translate(200, 150)">
+        <!-- Desk/workspace -->
+        <rect x="0" y="200" width="400" height="20" rx="10" fill="#e2e8f0"/>
+        <rect x="0" y="220" width="400" height="80" rx="10" fill="#f1f5f9"/>
+        
+        <!-- Monitor -->
+        <rect x="120" y="50" width="160" height="120" rx="8" fill="#1e293b" stroke="#374151" stroke-width="3"/>
+        <rect x="130" y="60" width="140" height="90" rx="4" fill="#0f172a"/>
+        
+        <!-- Monitor stand -->
+        <rect x="185" y="170" width="30" height="30" fill="#6b7280"/>
+        <rect x="170" y="200" width="60" height="10" rx="5" fill="#9ca3af"/>
+        
+        <!-- Code on screen -->
+        <rect x="140" y="70" width="20" height="4" rx="2" fill="#6366f1"/>
+        <rect x="165" y="70" width="30" height="4" rx="2" fill="#94a3b8"/>
+        <rect x="140" y="80" width="40" height="4" rx="2" fill="#94a3b8"/>
+        <rect x="140" y="90" width="25" height="4" rx="2" fill="#10b981"/>
+        <rect x="170" y="90" width="35" height="4" rx="2" fill="#94a3b8"/>
+        <rect x="140" y="100" width="30" height="4" rx="2" fill="#94a3b8"/>
+        <rect x="140" y="110" width="50" height="4" rx="2" fill="#f59e0b"/>
+        
+        <!-- Cursor/typing indicator -->
+        <rect x="195" y="110" width="2" height="4" fill="#06b6d4" class="pulse"/>
+        
+        <!-- Keyboard -->
+        <rect x="80" y="190" width="240" height="60" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+        <!-- Keys -->
+        <g fill="#ffffff" stroke="#e5e7eb" stroke-width="1">
+            <rect x="90" y="200" width="12" height="12" rx="2"/>
+            <rect x="105" y="200" width="12" height="12" rx="2"/>
+            <rect x="120" y="200" width="12" height="12" rx="2"/>
+            <rect x="135" y="200" width="12" height="12" rx="2"/>
+            <rect x="150" y="200" width="12" height="12" rx="2"/>
+            <rect x="165" y="200" width="12" height="12" rx="2"/>
+            <rect x="180" y="200" width="12" height="12" rx="2"/>
+            <rect x="195" y="200" width="12" height="12" rx="2"/>
+            <rect x="210" y="200" width="12" height="12" rx="2"/>
+            
+            <rect x="95" y="215" width="12" height="12" rx="2"/>
+            <rect x="110" y="215" width="12" height="12" rx="2"/>
+            <rect x="125" y="215" width="12" height="12" rx="2"/>
+            <rect x="140" y="215" width="12" height="12" rx="2"/>
+            <rect x="155" y="215" width="12" height="12" rx="2"/>
+            <rect x="170" y="215" width="12" height="12" rx="2"/>
+            <rect x="185" y="215" width="12" height="12" rx="2"/>
+            <rect x="200" y="215" width="12" height="12" rx="2"/>
+            
+            <rect x="100" y="230" width="120" height="12" rx="2"/>
+        </g>
+        
+        <!-- Mouse -->
+        <ellipse cx="340" cy="210" rx="20" ry="30" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+        <rect x="338" y="200" width="4" height="8" rx="2" fill="#e5e7eb"/>
+        
+        <!-- Coffee cup -->
+        <ellipse cx="50" cy="200" rx="25" ry="8" fill="#6b7280"/>
+        <rect x="25" y="180" width="50" height="20" rx="25" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+        <rect x="35" y="170" width="30" height="10" rx="15" fill="#6366f1" opacity="0.8"/>
+        <!-- Coffee steam -->
+        <path d="M40 160 Q45 150 40 140" stroke="#94a3b8" stroke-width="2" fill="none" opacity="0.6" class="float"/>
+        <path d="M50 160 Q55 150 50 140" stroke="#94a3b8" stroke-width="2" fill="none" opacity="0.6" class="float-delayed"/>
+        <path d="M60 160 Q65 150 60 140" stroke="#94a3b8" stroke-width="2" fill="none" opacity="0.6" class="float"/>
+        
+        <!-- Plant -->
+        <ellipse cx="350" cy="180" rx="15" ry="8" fill="#059669"/>
+        <rect x="335" y="170" width="30" height="10" rx="15" fill="#f3f4f6" stroke="#d1d5db" stroke-width="1"/>
+        <!-- Leaves -->
+        <ellipse cx="340" cy="160" rx="8" ry="15" fill="#10b981" transform="rotate(-20 340 160)"/>
+        <ellipse cx="350" cy="155" rx="6" ry="12" fill="#059669" transform="rotate(10 350 155)"/>
+        <ellipse cx="360" cy="160" rx="7" ry="14" fill="#10b981" transform="rotate(30 360 160)"/>
+    </g>
+    
+    <!-- Floating elements -->
+    <g class="float">
+        <!-- Code brackets -->
+        <text x="100" y="200" font-family="monospace" font-size="24" fill="url(#primaryGradient)" opacity="0.6">&lt;/&gt;</text>
+    </g>
+    
+    <g class="float-delayed">
+        <!-- Lightbulb idea -->
+        <circle cx="650" cy="300" r="20" fill="url(#accentGradient)" opacity="0.7"/>
+        <rect x="645" y="320" width="10" height="15" rx="5" fill="#f59e0b" opacity="0.7"/>
+        <rect x="640" y="335" width="20" height="4" rx="2" fill="#6b7280" opacity="0.7"/>
+    </g>
+    
+    <g class="rotate" style="transform-origin: 700px 450px;">
+        <!-- Gear -->
+        <circle cx="700" cy="450" r="25" fill="none" stroke="url(#secondaryGradient)" stroke-width="4" opacity="0.4"/>
+        <circle cx="700" cy="450" r="15" fill="url(#secondaryGradient)" opacity="0.3"/>
+        <!-- Gear teeth -->
+        <rect x="697" y="420" width="6" height="10" fill="url(#secondaryGradient)" opacity="0.4"/>
+        <rect x="720" y="447" width="10" height="6" fill="url(#secondaryGradient)" opacity="0.4"/>
+        <rect x="697" y="470" width="6" height="10" fill="url(#secondaryGradient)" opacity="0.4"/>
+        <rect x="670" y="447" width="10" height="6" fill="url(#secondaryGradient)" opacity="0.4"/>
+    </g>
+    
+    <!-- Binary code background -->
+    <g opacity="0.1" fill="url(#primaryGradient)" font-family="monospace" font-size="12">
+        <text x="50" y="50">1010101010</text>
+        <text x="680" y="80">1100110011</text>
+        <text x="30" y="350">0110110110</text>
+        <text x="720" y="350">1001100110</text>
+        <text x="40" y="550">1111000011</text>
+        <text x="650" y="580">0011110000</text>
+    </g>
+    
+    <!-- Connecting lines/network -->
+    <g stroke="url(#primaryGradient)" stroke-width="2" fill="none" opacity="0.2">
+        <line x1="100" y1="100" x2="200" y2="150"/>
+        <line x1="600" y1="100" x2="500" y2="200"/>
+        <line x1="100" y1="500" x2="300" y2="400"/>
+        <line x1="700" y1="450" x2="500" y2="350"/>
+    </g>
+    
+    <!-- Dots at connection points -->
+    <g fill="url(#accentGradient)" opacity="0.6">
+        <circle cx="100" cy="100" r="4" class="pulse"/>
+        <circle cx="200" cy="150" r="4" class="pulse" style="animation-delay: 1s"/>
+        <circle cx="600" cy="100" r="4" class="pulse" style="animation-delay: 2s"/>
+        <circle cx="500" cy="200" r="4" class="pulse" style="animation-delay: 0.5s"/>
+        <circle cx="100" cy="500" r="4" class="pulse" style="animation-delay: 1.5s"/>
+        <circle cx="300" cy="400" r="4" class="pulse" style="animation-delay: 2.5s"/>
+        <circle cx="700" cy="450" r="4" class="pulse" style="animation-delay: 3s"/>
+        <circle cx="500" cy="350" r="4" class="pulse" style="animation-delay: 0.8s"/>
+    </g>
+</svg>
